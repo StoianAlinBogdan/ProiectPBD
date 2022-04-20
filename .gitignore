@@ -1,1 +1,5 @@
 NYPD_Arrests_Data__Historic_.csv
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store

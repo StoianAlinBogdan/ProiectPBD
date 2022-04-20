@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07F40A37-42FF-D803-7806-3284A7E65644" name="location_info">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>A58AD93C-385C-E5E0-D1E6-E400E45F08B9</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7E56FAFD-F180-EED8-78D1-B352503F8DAE">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>A2846707-3595-2EAE-015A-49A09A4226E9</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="arrest_precinct" id="AA1B54B7-B47C-99B1-4879-873CA1A9537D">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>FD57EB6D-1E82-5552-359D-6230272A15D5</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="boroughs_id" id="DF38A2ED-FEB2-87ED-50E3-AB95A866727B">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>885AFAA4-DEFE-32C8-89F5-4E21327BDFB0</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2FD0303-FD79-6267-BC47-01FFA4F14B23" referredColumn="8D934577-EF85-2B56-0370-2A4600F5ACD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D37992A2-2017-8539-D23A-2518C333F47D" name="location_info_PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>7EB597CF-9D73-1C57-BDC8-2D489A377879</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E56FAFD-F180-EED8-78D1-B352503F8DAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5C8E762-F16A-7035-6CFB-DE98A4C2D848" name="location_info_boroughs_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>EBA7CFAA-4538-4941-0461-29F14E415D2A</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF38A2ED-FEB2-87ED-50E3-AB95A866727B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

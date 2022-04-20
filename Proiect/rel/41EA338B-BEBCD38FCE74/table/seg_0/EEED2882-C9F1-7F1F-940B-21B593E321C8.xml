@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEED2882-C9F1-7F1F-940B-21B593E321C8" name="arrest">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:14 UTC</createdTime>
+<generatorID>0F8F5886-2D61-F356-9196-DB9295DC1FF0</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4A8E4274-12A3-0679-98EE-7B9E1244347D">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:14 UTC</createdTime>
+<generatorID>7C46C411-4358-470B-D019-0A72918E509F</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="arrest_date" id="F51C99CD-3CEA-2BD9-D5D2-1CCCA7F1022D">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:14 UTC</createdTime>
+<generatorID>DF80C991-683C-F559-A75E-322175A3DA53</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jurisdiction" id="90872FFE-A25E-F57F-7AD4-68BCE509B899">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:14 UTC</createdTime>
+<generatorID>308836BD-5F59-42FE-AA6A-E8DA48159056</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="map_coords_id" id="5CEE0E64-43B2-0431-FCA0-4BEAB3E756CA">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:14 UTC</createdTime>
+<generatorID>BAF2D371-0DDC-37AC-CB45-5DA8E34845D0</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5C21835-0B1F-5F66-17E0-EB7678CD1D94" referredColumn="41B9BDA2-9D46-E688-A72C-D8EC50661576"/>
+</associations>
+</Column>
+<Column name="gps_coords_id" id="62FCF57D-FC61-72B5-C297-032083E9FB23">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:14 UTC</createdTime>
+<generatorID>0CEA9B12-BC12-2295-4BAB-1BD8998A6273</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA9E6001-F401-6BCE-BFE4-46BFFE8335BA" referredColumn="E4E485FA-BB1D-5060-7CA1-C586262E3EDA"/>
+</associations>
+</Column>
+<Column name="pd_id" id="3FA1A5C9-4693-2823-CCF2-8F79EA3F191C">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:14 UTC</createdTime>
+<generatorID>FDAFF74B-6B98-8A55-0C87-BCF0624ED4DF</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B690B7D-4D55-1112-BE7E-14803D83A1C7" referredColumn="F8D85960-0B1E-4022-D6EC-4DEB299CD4AC"/>
+</associations>
+</Column>
+<Column name="ky_id" id="93456816-F3AC-E046-4A9C-AB482CFA6E27">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:14 UTC</createdTime>
+<generatorID>B929B8D4-A64E-90C3-3B6E-1D7EDD1E493E</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="408F240A-20CF-B3BA-44ED-A88EC0973302" referredColumn="8C3B7432-6B35-1D0B-A5E1-AB942F65A572"/>
+</associations>
+</Column>
+<Column name="law_id" id="B69EAB55-3257-F490-F317-0C04152F29DB">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>D57787E8-0238-22D0-0A88-04637E32F837</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48B13037-4068-1EBB-021C-6ABE5A428801" referredColumn="A77DF753-6F0B-22DD-96E0-F35C92767FA5"/>
+</associations>
+</Column>
+<Column name="location_info_id" id="D814A640-1844-CC03-9982-0D2F93FED811">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>2CDB1C43-74BA-7C29-9480-68E6F700C20B</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BDDB243-1F19-5E18-C696-3AD743A42B88" referredColumn="7E56FAFD-F180-EED8-78D1-B352503F8DAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAAC7FBD-C7C4-AFFA-D559-1AB6C9FCF890" name="arrest_PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>482171F8-314D-C946-40BE-5D4B96F09FF9</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A8E4274-12A3-0679-98EE-7B9E1244347D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0245BE9-2415-AA85-1134-0DB224831A8C" name="arrest_location_info_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>CE03094F-8D15-163F-A7ED-BAFDBAC24DAE</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D814A640-1844-CC03-9982-0D2F93FED811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69C85075-EE6B-1B47-695D-20B06D7CFBC7" name="arrest_gps_coords_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>7E71267B-224D-0F21-B582-D4BC9EDC718C</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62FCF57D-FC61-72B5-C297-032083E9FB23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="819A88DD-18CE-ECC3-D4C4-B4E4D1C285E8" name="arrest_map_coords_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>64ACDF56-C8B5-5B60-139C-9DF14883F441</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CEE0E64-43B2-0431-FCA0-4BEAB3E756CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A4190FF-FF61-792E-D084-14F0908340C2" name="arrest_pd_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>019CFDFB-DB7A-949A-08F3-C122F01ED900</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FA1A5C9-4693-2823-CCF2-8F79EA3F191C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEC11762-5ACB-7E7F-A28D-B8E1630C88C2" name="arrest_ky_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>FBDE9E6B-B3A0-2359-421C-F53C0CFCE038</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93456816-F3AC-E046-4A9C-AB482CFA6E27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0342A503-3241-022F-D57E-00281A9B04EB" name="arrest_law_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>76DB3C97-033C-2D03-82BB-8FF74ACDD1B2</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B69EAB55-3257-F490-F317-0C04152F29DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

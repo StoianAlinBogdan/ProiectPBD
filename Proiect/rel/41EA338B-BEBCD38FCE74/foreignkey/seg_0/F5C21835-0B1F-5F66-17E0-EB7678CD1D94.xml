@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5C21835-0B1F-5F66-17E0-EB7678CD1D94" containerWithKeyObject="EEED2882-C9F1-7F1F-940B-21B593E321C8" localFKIndex="819A88DD-18CE-ECC3-D4C4-B4E4D1C285E8" name="arrest_map_coords_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>64ACDF56-C8B5-5B60-139C-9DF14883F441</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<referredTableLongName>map_coords</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3376449-55BF-0EE7-F82C-CE3F50A60A9F</referredTableID>
+<keyObject>4CE870AA-644F-2340-0BF9-6F39A09AB11D</keyObject>
+<referredKeyID>4CE870AA-644F-2340-0BF9-6F39A09AB11D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

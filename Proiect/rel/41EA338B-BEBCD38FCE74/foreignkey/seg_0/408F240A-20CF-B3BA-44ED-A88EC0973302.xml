@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="408F240A-20CF-B3BA-44ED-A88EC0973302" containerWithKeyObject="EEED2882-C9F1-7F1F-940B-21B593E321C8" localFKIndex="FEC11762-5ACB-7E7F-A28D-B8E1630C88C2" name="arrest_ky_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>FBDE9E6B-B3A0-2359-421C-F53C0CFCE038</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<referredTableLongName>ky</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5320CE57-6F84-B79A-1125-5A32DE819AE1</referredTableID>
+<keyObject>4D80A592-3170-2605-CC67-15793769C7DB</keyObject>
+<referredKeyID>4D80A592-3170-2605-CC67-15793769C7DB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

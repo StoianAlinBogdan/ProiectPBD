@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CC3937A-B7A4-FE23-D0DF-67ED906BA78C" name="perpetrator_info">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>DC87377C-3E65-E439-C02B-112D535EE04A</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="arrest_id" id="16A98626-5AD0-8C82-EE4A-CDD748D39CA0">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>CD8C169A-B28A-03C6-C369-678D4D5549AF</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEE8AEA4-3382-7A3B-9F6A-95C5E44FF952" referredColumn="4A8E4274-12A3-0679-98EE-7B9E1244347D"/>
+</associations>
+</Column>
+<Column name="age_group" id="694A5384-2D13-AFC9-9B62-1D1A10AF99AC">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>8D185803-CC99-F799-13B4-2FA82C5DF4EA</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sex" id="19949262-4856-123B-B192-EBF54F36E168">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>9B915B6E-0C37-80D0-67EB-73CEBC9D1BA4</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="race" id="99C13687-A465-0A81-2ADE-8EFB004D9A6F">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>10DB34C1-A3D8-7875-B986-45934C03494B</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4EE7ADD-50C5-BD90-0934-88E977C37B0B" name="perpetrator_info_PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>B606AA83-A9F8-0DC1-E82E-6425568600A7</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16A98626-5AD0-8C82-EE4A-CDD748D39CA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF5BD032-D1E3-F564-254E-39FA83F2B4E5" name="perpetrator_info_arrest_FK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-04-20 19:24:15 UTC</createdTime>
+<generatorID>2D579F9A-BC51-F610-E68C-227CD1972FB9</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16A98626-5AD0-8C82-EE4A-CDD748D39CA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
