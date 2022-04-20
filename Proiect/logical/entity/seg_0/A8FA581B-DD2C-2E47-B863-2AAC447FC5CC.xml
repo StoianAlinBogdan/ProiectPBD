@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8FA581B-DD2C-2E47-B863-2AAC447FC5CC" name="gps_coords">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:48:43 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C8E73093-5A32-55F6-C14A-E673D18FF356">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:55:44 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="long" id="CE62D5D5-F507-EB2B-8C46-DD8724419110">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:55:51 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,12,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lat" id="E1A6EAB3-F146-C4EB-5AC7-39FD7C0A4794">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:56:06 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,12,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5DBEA2E-031F-E890-45A1-F447AD2E3BFA" name="gps_coords PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:55:50 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8E73093-5A32-55F6-C14A-E673D18FF356</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

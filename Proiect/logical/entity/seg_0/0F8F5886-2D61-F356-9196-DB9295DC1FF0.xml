@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F8F5886-2D61-F356-9196-DB9295DC1FF0" name="arrest">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:45:19 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7C46C411-4358-470B-D019-0A72918E509F">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:51:22 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="arrest_date" id="DF80C991-683C-F559-A75E-322175A3DA53">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:52:58 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jurisdiction" id="308836BD-5F59-42FE-AA6A-E8DA48159056">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:53:20 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="BAF2D371-0DDC-37AC-CB45-5DA8E34845D0">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:53:56 UTC</createdTime>
+<generatorID>64ACDF56-C8B5-5B60-139C-9DF14883F441</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<referedAttribute>C5E9FDAB-9196-C37B-79C3-0458BA6CB90D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="0CEA9B12-BC12-2295-4BAB-1BD8998A6273">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:55:50 UTC</createdTime>
+<generatorID>7E71267B-224D-0F21-B582-D4BC9EDC718C</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<referedAttribute>C8E73093-5A32-55F6-C14A-E673D18FF356</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="FDAFF74B-6B98-8A55-0C87-BCF0624ED4DF">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 09:03:46 UTC</createdTime>
+<generatorID>019CFDFB-DB7A-949A-08F3-C122F01ED900</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<referedAttribute>6B47BB71-A773-0DA7-64F3-A6B8B9390916</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="B929B8D4-A64E-90C3-3B6E-1D7EDD1E493E">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 11:21:21 UTC</createdTime>
+<generatorID>FBDE9E6B-B3A0-2359-421C-F53C0CFCE038</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<referedAttribute>6C70456A-8DBE-5585-271D-6E2F7479EFB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id5" id="D57787E8-0238-22D0-0A88-04637E32F837">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 11:21:59 UTC</createdTime>
+<generatorID>76DB3C97-033C-2D03-82BB-8FF74ACDD1B2</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<referedAttribute>DF06E69A-440C-B96D-1230-2FD36A2FEB1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id6" id="2CDB1C43-74BA-7C29-9480-68E6F700C20B">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 11:24:35 UTC</createdTime>
+<generatorID>CE03094F-8D15-163F-A7ED-BAFDBAC24DAE</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<referedAttribute>A2846707-3595-2EAE-015A-49A09A4226E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="482171F8-314D-C946-40BE-5D4B96F09FF9" name="arrest PK">
+<createdBy>Stoian Bogdan</createdBy>
+<createdTime>2022-03-19 08:52:25 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="41EA338B-1CAD-F7B3-9B74-BEBCD38FCE74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C46C411-4358-470B-D019-0A72918E509F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
